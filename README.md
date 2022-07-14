@@ -8,10 +8,10 @@
 
 </br>
 
-| Endpoints         |     | Method   |     | Operation                    |
-| ----------------- | --- | -------- | --- | ---------------------------- |
-| `/api/movies`     |     | `GET`    |     | Gets all the movies          |
-| `/api/movie`      |     | `POST`   |     | Add a movie to the db        |
-| `/api/movie/{id}` |     | `PUT`    |     | Update a singular movie info |
-| `/api/movie/{id}` |     | `DELETE` |     | Delete a particular movie    |
-| `/api/deleteall`  |     | `DELETE` |     | Erase the entire db          |
+| Endpoints         | Method   | Operation                    |
+| ----------------- | -------- | ---------------------------- |
+| `/api/movies`     | `GET`    | Gets all the movies          |
+| `/api/movie`      | `POST`   | Add a movie to the db        |
+| `/api/movie/{id}` | `PUT`    | Update a singular movie info |
+| `/api/movie/{id}` | `DELETE` | Delete a particular movie    |
+| `/api/deleteall`  | `DELETE` | Erase the entire db          |
